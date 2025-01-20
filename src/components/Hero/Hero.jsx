@@ -17,7 +17,7 @@ const Hero = () => {
             }}
           >
             <font>
-              <font>Hi, I'm</font>
+              <font>Hi, I'm </font>
             </font>
             <span className="underline font-semibold">
               <font>
@@ -59,22 +59,22 @@ const Hero = () => {
           >
             <p className=" text-lg md:text-xl max-w-[240px] md:max-w-[320px] lg:max-w-[400px] text-text-200 mb-4">
               <font>
-                <font>I am a</font>
+                <font>I am a </font>
               </font>
               <span className=" font-bold border-text-100 text-text-100">
-                <font>Software Engineer</font>
+                <font>Software Engineer </font>
               </span>
               <font>
-                <font>and</font>
+                <font>and </font>
               </font>
               <span className=" font-bold border-text-100 text-text-100">
-                <font>Front-End</font>
+                <font>Front-End </font>
               </span>
               <font>
-                <font>and</font>
+                <font>and </font>
               </font>
               <span className=" font-bold border-text-100 text-text-100">
-                <font>Back-End</font>
+                <font>Back-End </font>
               </span>
               <font>
                 <font>specialized in the creation of efficient websites.</font>

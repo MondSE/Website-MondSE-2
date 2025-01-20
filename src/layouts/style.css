@@ -3,11 +3,23 @@ body {
     margin: 0;
     width: 100%;
     height: 100%;
+    background-color: none;
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    border-radius: .5rem;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+    padding: .75rem 1rem;
 }
 
 .btn-primary {
     --tw-bg-opacity: 1;
-    background-color: rgb(89 110 121 / var(--tw-bg-opacity));
+    background-color: rgb(89 110 121);
     --tw-text-opacity: 1;
-    color: rgb(225 228 230 / var(--tw-text-opacity));
+    color: rgb(225 228 230);
 }
