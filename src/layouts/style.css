@@ -23,3 +23,13 @@ body {
     --tw-text-opacity: 1;
     color: rgb(225 228 230);
 }
+
+.hero-title,
+.hero-span,
+.hero-paragraph,
+.hero-icon-circle,
+.hero-icon-bullet,
+.hero-button,
+.nav {
+    visibility: hidden
+}
