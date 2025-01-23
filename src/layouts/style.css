@@ -33,3 +33,15 @@ body {
 .nav {
     visibility: hidden
 }
+
+.capitalize {
+    text-transform: capitalize
+}
+
+#header_nav {
+    content: "";
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1
+}

@@ -14,6 +14,92 @@ const Techstack = () => {
           </div>
         </div>
       </div>
+      <div className=" mt-10 xl:mt-16 xl:gap-6 grid grid-cols-2 gap-3 sm:grid-cols-3 xl:grid-cols-4 container mx-auto">
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+        <div className=" w-full py-2 rounded-lg flex justify-center gap-2 items-center border-2 border-dashed border-text-100">
+          <p className=" capitalize text-sm sm:text-base">
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>HTML</font>
+            </font>
+          </p>
+        </div>
+      </div>
     </div>
   );
 };
