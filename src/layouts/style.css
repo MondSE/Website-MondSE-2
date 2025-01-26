@@ -45,3 +45,18 @@ body {
     pointer-events: none;
     z-index: 1
 }
+
+.bg-text-100 {
+    --tw-bg-opacity: 1;
+    background-color: rgb(30 32 34 / var(--tw-bg-opacity));
+}
+
+.text-accent-200 {
+    --tw-text-opacity: 1;
+    color: rgb(225 228 230 / var(--tw-text-opacity));
+}
+
+.text-text-100 {
+    --tw-text-opacity: 1;
+    color: rgb(30 32 34 / var(--tw-text-opacity));
+}
