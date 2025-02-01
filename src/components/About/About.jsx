@@ -45,6 +45,7 @@ const About = () => {
             <div className=" relative flex flex-col items-start mb-6 lg:gap-8 xl:w-[500px] group">
               <div className=" absolute left-5  bottom-full sm:h-[100px] group-[&:not(:first-child)]:before:block group-[&:not(:first-child)]:before:w-px group-[&:not(:first-child)]:before:h-full group-[&:not(:first-child)]:before:border-l-2 group-[&:not(:first-child)]:before:border-dashed group-[&:not(:first-child)]:before:border-primary-200 group-[&:not(:first-child)]:before:content-['']"></div>
               <div className=" flex gap-4 items-center mb-4">
+                <div className=" h-fit grid content-center bg-primary-200 rounded-lg p-2 text-accent-200"></div>
                 <div className="">
                   <h1 className=" text-xl font-bold">
                     <font style={{ verticalAlign: "inherit" }}>
@@ -63,29 +64,15 @@ const About = () => {
                   </p>
                 </div>
               </div>
-            </div>
-          </div>
-          <div className=" flex flex-col gap-3 items-start mt-2 mb-4 lg:gap-8 xl:w-[634px]">
-            <div className=" relative flex flex-col items-start mb-6 lg:gap-8 xl:w-[500px] group">
-              <div className=" absolute left-5  bottom-full sm:h-[100px] group-[&:not(:first-child)]:before:block group-[&:not(:first-child)]:before:w-px group-[&:not(:first-child)]:before:h-full group-[&:not(:first-child)]:before:border-l-2 group-[&:not(:first-child)]:before:border-dashed group-[&:not(:first-child)]:before:border-primary-200 group-[&:not(:first-child)]:before:content-['']"></div>
-              <div className=" flex gap-4 items-center mb-4">
-                <div className="">
-                  <h1 className=" text-xl font-bold">
+              <div className=" ml-14">
+                <p className=" text-pretty max-w-[500px]">
+                  <font style={{ verticalAlign: "inherit" }}>
                     <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        {" "}
-                        Software Engineer
-                      </font>
+                      I am currently studying Software Engineering at the
+                      National University of San Marcos (UNMSM)
                     </font>
-                  </h1>
-                  <p className=" font-medium">
-                    <font style={{ verticalAlign: "inherit" }}>
-                      <font style={{ verticalAlign: "inherit" }}>
-                        2022 - Present
-                      </font>
-                    </font>
-                  </p>
-                </div>
+                  </font>
+                </p>
               </div>
             </div>
           </div>
