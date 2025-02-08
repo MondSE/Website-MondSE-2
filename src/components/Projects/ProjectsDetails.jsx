@@ -30,6 +30,14 @@ const ProjectsDetails = () => {
           </div>
         </div>
       </div>
+      <div className=" flex flex-wrap gap-2 mb-10">
+        <p className="">
+          <font style={{ verticalAlign: "inherit" }}>
+            <font style={{ verticalAlign: "inherit" }}>GitHub:</font>
+          </font>
+        </p>
+        <div className=" flex gap-1"></div>
+      </div>
     </div>
   );
 };
