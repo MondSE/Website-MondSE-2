@@ -17,11 +17,15 @@ const ProjectsDetails = () => {
                 <font style={{ verticalAlign: "inherit" }}># HTML</font>
               </font>
             </p>
+          </div>
+          <div className=" py-1 px-2 rounded-md bg-accent-200 flex justify-center gap-2 items-center border text-text-100">
             <p className=" capitalize text-sm">
               <font style={{ verticalAlign: "inherit" }}>
                 <font style={{ verticalAlign: "inherit" }}># HTML</font>
               </font>
             </p>
+          </div>
+          <div className=" py-1 px-2 rounded-md bg-accent-200 flex justify-center gap-2 items-center border text-text-100">
             <p className=" capitalize text-sm">
               <font style={{ verticalAlign: "inherit" }}>
                 <font style={{ verticalAlign: "inherit" }}># HTML</font>
