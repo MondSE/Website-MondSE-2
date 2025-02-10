@@ -53,12 +53,13 @@ const ProjectsDetails = () => {
         <p></p>
       </div>
       <article className=" prose mb-20 lg:prose-lg">
+        {/* Project Summary */}
         <h2 id="resumen-del-proyecto">
           <font style={{ verticalAlign: "inherit" }}>
             <font style={{ verticalAlign: "inherit" }}>Project Summary</font>
           </font>
         </h2>
-        <p className="">
+        <p className="mb-5">
           <font style={{ verticalAlign: "inherit" }}>
             <font style={{ verticalAlign: "inherit" }}>
               GymCoach is a web application designed to help users manage their
@@ -69,15 +70,104 @@ const ProjectsDetails = () => {
             </font>
           </font>
         </p>
-        <img
-          src={ACTDO.src}
-          alt="ACTDO"
-          className="rounded-xl"
-          width={700}
-          height={600}
-          loading="lazy"
-          decoding="async"
-        />
+        <div className="">
+          {/* 1st image group */}
+          <div className="grid grid-cols-3 gap-4">
+            <img
+              src={ACTDO.src}
+              alt="ACTDO"
+              className="rounded-xl w-full h-auto"
+              width={350}
+              height={300}
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={ACTDO.src}
+              alt="ACTDO"
+              className="rounded-xl w-full h-auto"
+              width={350}
+              height={300}
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={ACTDO.src}
+              alt="ACTDO"
+              className="rounded-xl w-full h-auto"
+              width={350}
+              height={300}
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={ACTDO.src}
+              alt="ACTDO"
+              className="rounded-xl w-full h-auto"
+              width={350}
+              height={300}
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={ACTDO.src}
+              alt="ACTDO"
+              className="rounded-xl w-full h-auto"
+              width={350}
+              height={300}
+              loading="lazy"
+              decoding="async"
+            />
+            <img
+              src={ACTDO.src}
+              alt="ACTDO"
+              className="rounded-xl w-full h-auto"
+              width={350}
+              height={300}
+              loading="lazy"
+              decoding="async"
+            />
+          </div>
+        </div>
+        {/* Objective */}
+        <h2 id="Objective">
+          <font style={{ verticalAlign: "inherit" }}>
+            <font style={{ verticalAlign: "inherit" }}>Aim</font>
+          </font>
+        </h2>
+        <p>
+          <font style={{ verticalAlign: "inherit" }}>
+            <font style={{ verticalAlign: "inherit" }}>
+              The main goal of Project is to provide users with an all-in-on
+              tool to:
+            </font>
+          </font>
+        </p>
+        <ul>
+          <li>
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>
+                Create and manage custom workout routines.
+              </font>
+            </font>
+          </li>
+          <li>
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>
+                Consult a virtual assistant for advice and recommendations on
+                exercise, nutrition and general well-being.
+              </font>
+            </font>
+          </li>
+          <li>
+            <font style={{ verticalAlign: "inherit" }}>
+              <font style={{ verticalAlign: "inherit" }}>
+                Make it easy to track physical progress through statistics and
+                visual data.
+              </font>
+            </font>
+          </li>
+        </ul>
       </article>
     </div>
   );
