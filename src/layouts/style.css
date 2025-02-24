@@ -183,3 +183,22 @@ menu {
     margin-bottom: 1.25em;
     padding-inline-start: 1.625em;
 }
+
+#header_nav {
+    transition: transform .3sease-in-out;
+}
+
+#header_nav:before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(/_astro/grainy_200x200.MzU-yKU9.webp);
+    pointer-events: none;
+    opacity: .2;
+    z-index: 1;
+}
+
+nav {
+    display: block;
+    unicode-bidi: isolate;
+}
