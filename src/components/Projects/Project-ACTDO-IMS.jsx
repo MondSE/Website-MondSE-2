@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useState } from "react";
 import ACTDO from "../../assets/project/ACTDO_IMS_IMG/1.png";
 
 const ProjectsDetails = () => {
+  // const [toggleState, setToggleState] = useState(0);
+
+  // const toggleTab = (index) => {
+  //   setToggleState(index);
+  // };
+
+  const images = [ACTDO.src];
+
+  const [selectedImage, setSelectedImage] = useState(null);
+
   return (
     <div className=" contianer px-4 pt-20 lg:pt-32 mx-auto max-w-screen-lg">
       <h1 className=" text-3xl lg:text-5xl mb-5 font-bold">title project</h1>
@@ -71,63 +81,53 @@ const ProjectsDetails = () => {
           </font>
         </p>
         <div className="">
-          {/* 1st image group */}
+          {/* Image Grid */}
           <div className="grid grid-cols-3 gap-4">
-            <img
-              src={ACTDO.src}
-              alt="ACTDO"
-              className="rounded-xl w-full h-auto"
-              width={350}
-              height={300}
-              loading="lazy"
-              decoding="async"
-            />
-            <img
-              src={ACTDO.src}
-              alt="ACTDO"
-              className="rounded-xl w-full h-auto"
-              width={350}
-              height={300}
-              loading="lazy"
-              decoding="async"
-            />
-            <img
-              src={ACTDO.src}
-              alt="ACTDO"
-              className="rounded-xl w-full h-auto"
-              width={350}
-              height={300}
-              loading="lazy"
-              decoding="async"
-            />
-            <img
-              src={ACTDO.src}
-              alt="ACTDO"
-              className="rounded-xl w-full h-auto"
-              width={350}
-              height={300}
-              loading="lazy"
-              decoding="async"
-            />
-            <img
-              src={ACTDO.src}
-              alt="ACTDO"
-              className="rounded-xl w-full h-auto"
-              width={350}
-              height={300}
-              loading="lazy"
-              decoding="async"
-            />
-            <img
-              src={ACTDO.src}
-              alt="ACTDO"
-              className="rounded-xl w-full h-auto"
-              width={350}
-              height={300}
-              loading="lazy"
-              decoding="async"
-            />
+            {images.map((src, index) => (
+              <img
+                key={index}
+                src={src}
+                alt={`Image ${index + 1}`}
+                className="rounded-xl w-full h-auto cursor-pointer transition-transform hover:scale-105"
+                onClick={() => {
+                  console.log("Clicked image:", src); // Debugging log
+                  setSelectedImage(src);
+                }}
+              />
+            ))}
           </div>
+
+          {/* Debugging: Check if state updates */}
+          {console.log("Selected image:", selectedImage)}
+
+          {/* Fullscreen Modal */}
+          {selectedImage && (
+            <div
+              className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50"
+              onClick={() => {
+                console.log("Closing modal");
+                setSelectedImage(null);
+              }}
+            >
+              <div className="relative">
+                {/* Close Button */}
+                <button
+                  className="absolute top-2 right-2 text-white text-3xl font-bold"
+                  onClick={(e) => {
+                    e.stopPropagation(); // Prevent closing when clicking the button
+                    setSelectedImage(null);
+                  }}
+                >
+                  &times;
+                </button>
+                <img
+                  src={selectedImage}
+                  alt="Full View"
+                  className="max-w-full max-h-full rounded-lg"
+                />
+              </div>
+            </div>
+          )}
         </div>
         {/* Objective */}
         <h2 id="Objective">
