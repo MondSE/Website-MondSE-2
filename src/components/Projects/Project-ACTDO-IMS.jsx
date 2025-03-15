@@ -7,6 +7,7 @@ const ProjectsDetails = () => {
   // const toggleTab = (index) => {
   //   setToggleState(index);
   // };
+  console.log("Component Rendered!"); // Debugging Step 1️⃣
 
   const images = [ACTDO.src];
 
@@ -90,22 +91,23 @@ const ProjectsDetails = () => {
                 alt={`Image ${index + 1}`}
                 className="rounded-xl w-full h-auto cursor-pointer transition-transform hover:scale-105"
                 onClick={() => {
-                  console.log("Clicked image:", src); // Debugging log
+                  alert(`Clicked image: ${src}`); // Debugging Step 2️⃣
+                  console.log("Clicked image:", src);
                   setSelectedImage(src);
                 }}
               />
             ))}
           </div>
 
-          {/* Debugging: Check if state updates */}
-          {console.log("Selected image:", selectedImage)}
+          {/* Debugging Step 3️⃣ */}
+          {console.log("Selected Image State:", selectedImage)}
 
           {/* Fullscreen Modal */}
           {selectedImage && (
             <div
               className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-80 z-50"
               onClick={() => {
-                console.log("Closing modal");
+                alert("Closing modal");
                 setSelectedImage(null);
               }}
             >
@@ -114,7 +116,7 @@ const ProjectsDetails = () => {
                 <button
                   className="absolute top-2 right-2 text-white text-3xl font-bold"
                   onClick={(e) => {
-                    e.stopPropagation(); // Prevent closing when clicking the button
+                    e.stopPropagation();
                     setSelectedImage(null);
                   }}
                 >
@@ -128,6 +130,12 @@ const ProjectsDetails = () => {
               </div>
             </div>
           )}
+          <button
+            onClick={() => alert("Button Clicked!")}
+            className="p-2 bg-blue-500 text-white"
+          >
+            Test Click
+          </button>
         </div>
         {/* Objective */}
         <h2 id="Objective">
